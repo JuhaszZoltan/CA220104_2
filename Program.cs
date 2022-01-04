@@ -22,7 +22,7 @@ namespace CA220104_2
 
         private static void Feladat04()
         {
-            using (var sr = new StreamReader("..\\..\\res\\NASAlog.txt"))
+            using (var sr = new StreamReader(@"..\..\res\NASAlog.txt"))
             {
                 while (!sr.EndOfStream)
                 {
